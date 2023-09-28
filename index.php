@@ -3,7 +3,7 @@
 <?php
     // Loads environmental factors.
     require __DIR__ . "/vendor/autoload.php";
-    include Dotenv\Dotenv;
+    include vlucas\dotenv;
     $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
     $dotenv()->load();
 ?>
