@@ -1,4 +1,8 @@
 <!DOCTYPE HTML>
+<?php
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv()->load();
+?>
 <html lang="en-us">
     <head>
         <title>Slackbot v0.0.1</title>

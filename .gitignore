@@ -1,7 +1,7 @@
 # Ignore variable and configuration files, contains API information. #
 #############################
-.env
-slack.php
+# .env
+# slack.php
 
 # Ignore stored data files. #
 #############################
