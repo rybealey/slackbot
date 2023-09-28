@@ -3,7 +3,7 @@
 <?php
     // Loads environmental factors.
     require __DIR__ . "/vendor/autoload.php";
-    require "/slack.php";
+    require "./slack.php";
 ?>
 
 <html lang="en-us">
