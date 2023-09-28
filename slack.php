@@ -8,7 +8,7 @@
     // Create the Slackbot instance.
     $config = [
         "slack" => [
-                "token" => "HBlBQcG3axoPyIDOMMjBCUYF"
+                "token" => "xoxb-526890004994-5786369407413-F63nkka4f06GYAjJH1eU4nkj"
             ]
         ];
 
