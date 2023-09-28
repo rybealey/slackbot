@@ -15,6 +15,6 @@
     <body>
         <h1>Slackbot v0.0.1 is running!</h1>
         <p>The Slackbot is currently taking requests.</p>
-        <p>Token: <?php echo $_ENV("TOKEN"); ?></p>
+        <p>Token: <?php echo getenv("TOKEN"); ?></p>
     </body>
 </html>
