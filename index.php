@@ -3,9 +3,7 @@
 <?php
     // Loads environmental factors.
     require __DIR__ . "/vendor/autoload.php";
-    include vlucas\dotenv;
-    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-    $dotenv()->load();
+    require __DIR__ . "/slack.php";
 ?>
 
 <html lang="en-us">
@@ -16,6 +14,6 @@
     <body>
         <h1>Slackbot v0.0.1 is running!</h1>
         <p>The Slackbot is currently taking requests.</p>
-        <p>Token: <?php echo getenv("TOKEN"); ?></p>
+        <p>Token: <?php echo $config->slack->token; ?></p>
     </body>
 </html>

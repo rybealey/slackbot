@@ -1,7 +1,6 @@
 {
     "require": {
         "botman/botman": "^2.8",
-        "vlucas/phpdotenv": "^5.5",
         "botman/driver-slack": "^1.0"
     }
 }
