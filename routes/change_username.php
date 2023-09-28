@@ -16,6 +16,6 @@
 
     $botman = BotManFactory::create($config);
 
-    $botman->hears("{dsid} {current} {new} {reason}", function($bot, $dsid, $current, $new, $reason){
+    $botman->hears("{dsid} {current} {new} {reason}", function(BotMan $bot, $dsid, $current, $new, $reason){
         $bot->reply("I have logged $dsid's username change from $current to $new for the reason of $reason and have timestamped the interaction in the database.");
     });
