@@ -17,6 +17,6 @@
     $botman = BotManFactory::create($config);
 
     $botman->on("event", function($payload, $bot){
-        $bot->repy($payload);
+        $bot->reply($payload);
         echo $payload >> "error_log.txt";
     });
