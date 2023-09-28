@@ -14,6 +14,6 @@
     <body>
         <h1>Slackbot v0.0.1 is running!</h1>
         <p>The Slackbot is currently taking requests.</p>
-        <p>Token: <?php echo $config[0]; ?></p>
+        <p>Token: <?php echo $config[0][0]; ?></p>
     </body>
 </html>
